@@ -21,6 +21,8 @@ Create a credentials file by executing : touch ~/.aws/credentials
 Open the file and paste the structure below. Fill in the placeholders with the new user credentials you have downloaded:
 
 [default]
+
 aws_access_key_id = YOUR_ACCESS_KEY_ID
+
 aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 
