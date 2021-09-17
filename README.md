@@ -31,6 +31,7 @@ aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 
 Create a new file by executing the command : touch ~/.aws/config
 Add the following and replace the placeholder with the region you have copied (save the file afterwards):
+
 [default]
 
 region = YOUR_PREFERRED_REGION
