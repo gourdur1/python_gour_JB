@@ -18,7 +18,7 @@ A new screen will show you the user’s generated credentials. Click on the Down
 
 Create a credentials file by executing : touch ~/.aws/credentials
 
-Open the file and paste the structure below. Fill in the placeholders with the new user credentials you have downloaded:
+Open the file and paste the structure below. Fill in the placeholders with the new user credentials you have downloaded (save the file afterwards):
 
 [default]
 
@@ -26,3 +26,11 @@ aws_access_key_id = YOUR_ACCESS_KEY_ID
 
 aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 
+
+
+
+Create a new file by executing the command : touch ~/.aws/config
+Add the following and replace the placeholder with the region you have copied (save the file afterwards):
+[default]
+
+region = YOUR_PREFERRED_REGION
