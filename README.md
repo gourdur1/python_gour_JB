@@ -1,5 +1,6 @@
 # python_gour_JB
 
+
 Clone this repo and execute the command: pip install -r requirements.txt
 
 create a new AWS user and then store the new credentials.
@@ -35,3 +36,9 @@ Add the following and replace the placeholder with the region you have copied (s
 [default]
 
 region = YOUR_PREFERRED_REGION
+
+
+
+
+
+Finally run the code by executing the command: python3 python_project_JB.py
